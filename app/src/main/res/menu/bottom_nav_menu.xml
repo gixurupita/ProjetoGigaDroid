@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            style="@style/MenuIcon"
+            android:id="@+id/BottomNavMenu_treinos"
+            app:showAsAction="always"
+            android:title="Treinos" />
+        <item
+            android:id="@+id/BottomNavMenu_minhaProgressao"
+            android:icon="@drawable/ic_statistics"
+            android:iconTint="@color/white"
+            app:showAsAction="always"
+            android:title="Home" />
+        <item
+            android:id="@+id/BottomNavMenu_perfil"
+            android:title="Acessibility"
+            app:showAsAction="always" />
+    </group>
+
+</menu>
