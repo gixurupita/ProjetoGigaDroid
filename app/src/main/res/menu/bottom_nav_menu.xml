@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="single">
         <item
-            style="@style/MenuIcon"
+            style="@style/MenuIconDumbell"
             android:id="@+id/BottomNavMenu_treinos"
             app:showAsAction="always"
             android:title="Treinos" />
         <item
+            android:iconTint="@color/white"
             android:id="@+id/BottomNavMenu_minhaProgressao"
             android:icon="@drawable/ic_statistics"
-            android:iconTint="@color/white"
             app:showAsAction="always"
             android:title="Home" />
         <item
@@ -18,5 +18,6 @@
             android:title="Acessibility"
             app:showAsAction="always" />
     </group>
+
 
 </menu>

@@ -5,11 +5,14 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="MenuIcon" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="MenuIconDumbell" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:icon">@mipmap/ic_dumbell_light</item>
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.ProjetoGigaDroid" parent="Base.Theme.ProjetoGigaDroid" />
+    <style name="DefaultIconTint0" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:iconTint">@color/black</item>
+    </style>
+
 </resources>

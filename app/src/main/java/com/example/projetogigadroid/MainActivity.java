@@ -20,19 +20,11 @@ public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
     private RelativeLayout relativeLayout;
-    private RelativeLayout relativeLayout;
-    private Fragment fragment1;
-    private Fragment fragmentf;
-    private Fragment fragmentg;
-    private Fragment fragment1j;
-    private Fragment fragment2;
-    private Fragment fragment3;
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         Log.d("Menu", "onCreateOptionsMenu called");
-        System.out.println("ME CHAMARAM");
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.bottom_nav_menu, menu);
         return super.onCreateOptionsMenu(menu);
@@ -48,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         //predefinicoes
         setSupportActionBar(toolbar);
-        bottomNavigationView.setItemIconTintList(null);
+        bottomNavigationView.setItemIconTintList(null);// essa coisa ta fazendo os icones padroes nao serem coloridos juntos
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         toolbar.setTitle("Giga boy" );
     }

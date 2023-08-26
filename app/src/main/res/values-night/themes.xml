@@ -4,10 +4,14 @@
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
-    <style name="MenuIcon" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="MenuIconDumbell" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="android:icon">@mipmap/ic_dumbell_dark</item>
         <!-- Customize your dark theme here. -->
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <style name="DefaultIconTint0" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:iconTint">@color/white</item>
     </style>
 
 
